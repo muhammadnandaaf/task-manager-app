@@ -1,1 +1,33 @@
-<button id="theme-toggle">🌙</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <button id="theme-toggle">🌙</button>
+        </header>
+
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Apa rencana hari ini?" required>
+            <button type="submit">Tambah</button>
+        </form>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="active">Aktif</button>
+            <button class="filter-btn" data-filter="completed">Selesai</button>
+        </div>
+
+        <ul id="task-list">
+            </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
