@@ -17,8 +17,9 @@ A simple and elegant task manager built with vanilla JavaScript.
 2. Open index.html in your browser 
 3. Start managing your tasks! 
 ## Screenshots 
-(Add screenshots here) 
+![alt text](image.png)
+![alt text](image-1.png)
 ## Author 
-[Your Name] 
+Muhammad Nandaarjuna Fadhillah
 ## License 
 MIT 
